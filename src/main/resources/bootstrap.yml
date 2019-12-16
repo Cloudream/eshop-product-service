@@ -1,0 +1,8 @@
+#config-server
+spring:
+  cloud:
+    config:
+      label: master
+      uri: http://localhost:8766/
+      profile: linux
+      name: datasource
